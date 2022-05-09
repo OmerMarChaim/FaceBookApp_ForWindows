@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BasicFacebookFeatures.Forms.FormFactory">
+    <Position X="3.75" Y="5.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAgAAAgACAAAAAAAAAAAAABAAAAAAAEAAAAA=</HashCode>
+      <FileName>Forms\FormFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.Forms.AppForm">
+    <Position X="9.25" Y="2.75" Width="2.25" />
+    <Members>
+      <Method Name="buttonClickToFetch_Click" Hidden="true" />
+      <Method Name="fetchAlbums" Hidden="true" />
+      <Method Name="fetchFavoriteTeams" Hidden="true" />
+      <Method Name="fetchGroups" Hidden="true" />
+      <Method Name="fetchPosts" Hidden="true" />
+      <Method Name="fetchProfilePic" Hidden="true" />
+      <Method Name="fetchUserInfo" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAMCIAAACUAASECCQCgwISBkAAAAgIIQgAAAE=</HashCode>
+      <FileName>Forms\AppForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.Forms.LoginForm">
+    <Position X="12" Y="2.75" Width="1.75" />
+    <Members>
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Method Name="pictureBox1_Click" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACAAABAAAACBAAACAAAAAAAAAAQAAABAAAA=</HashCode>
+      <FileName>Forms\LoginForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.Forms.FootballForm">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <Members>
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Method Name="updateComponents" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAJCAACBAQEAGAAAgCAAACAIACAAAAAAgEAAg=</HashCode>
+      <FileName>Forms\FootballForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.Forms.BestLikerForm">
+    <Position X="3.25" Y="2.5" Width="1.5" />
+    <Members>
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Method Name="listBox1_SelectedIndexChanged" Hidden="true" />
+      <Method Name="newFetchBestLikers" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ACAQSIEQgGCABAMIKBCEIAASAAAIgAAAAIAEAQABAIA=</HashCode>
+      <FileName>Forms\BestLikerForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.Forms.AlbumPhotosForm">
+    <Position X="0.5" Y="2.5" Width="2.25" />
+    <Members>
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Method Name="initPhotosFromAlbum" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAACACAAAIABAACAAAACAAEAABAAIAAAAEAAAAA=</HashCode>
+      <FileName>Forms\AlbumPhotosForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.Forms.FootballTeamQuestionForm">
+    <Position X="12" Y="5.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAAKAAACAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Forms\FootballTeamQuestionForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicFacebookFeatures.AppManager">
+    <Position X="7" Y="2.75" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAABAAAQAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>AppManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
