@@ -1,4 +1,4 @@
-# FaceBookApp_ForWindows
+# facebook-app-for-windows
 In this project, Omer and I created an app using **C# .Net and FaceBook API.**
 The application requests permissions from the user on the initial connection, and uses them to pull data.
 The idea was to implement **two new features** that are **NOT** part of FaceBook currently.
